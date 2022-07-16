@@ -109,17 +109,14 @@ a {
 }
 
 #addressDiv {
-  margin-top: 15vh;
+  margin-top: 25vh;
   width: 20vw;
-  margin-left: 25vw;
+  margin-left: 13vw;
   text-align: center;
   margin-right: auto;
 }
 
-#shopImg {
-  position: absolute;
-  height: auto;
-  width: 25vw;
-  margin-top: -49vh;
-  margin-left: 20vw;
+#map_api {
+  margin-top: -60vh;
+  margin-left: 27vw;
 }/*# sourceMappingURL=style.css.map */
