@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+  font-family: "spotify";
+  src: url("../fonts/nexa-book.ttf");
+}
+* {
+  font-family: "spotify";
+}
+
+body {
+  background-color: black;
+  color: white !important;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+
+#navBar {
+  width: 100vw;
+  height: 10vh;
+}
+#navBar a {
+  float: right;
+  margin-top: 3.5vh;
+  margin-right: 2.5vw;
+}
+
+#brandLogo {
+  float: left;
+  margin-left: 2vw;
+  height: auto;
+  width: 5vw;
+}
+
+#mainBody {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+#bigImg {
+  height: auto;
+  width: 40vw;
+}
+
+#mainSlideshow {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+#slideshowImg {
+  height: 60vh;
+  width: 80vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#sep1 {
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid white;
+  width: 90vw;
+  height: 1px;
+  margin-top: 8vh;
+}
+
+#mainText {
+  margin-top: 10vh;
+  width: 35vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mainText #bookBtn {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "spotify" !important;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 12vw;
+  min-height: 44px;
+  min-width: 10px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 5vh;
+  width: 10vw;
+}
+#mainText #bookBtn:hover,
+#mainText #bookBtn:focus {
+  opacity: 0.75;
+}
+
+#addressDiv {
+  margin-top: 15vh;
+  width: 20vw;
+  margin-left: 25vw;
+  text-align: center;
+  margin-right: auto;
+}
+
+#shopImg {
+  position: absolute;
+  height: auto;
+  width: 25vw;
+  margin-top: -49vh;
+  margin-left: 20vw;
+}/*# sourceMappingURL=style.css.map */
