@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style_contact.css"/>
+  </head>
+  <body>
+    <div id="navBar">
+      <a style="all: initial; cursor:pointer;" href="./index.html"><img src="./images/logo1.png" id="brandLogo" /></a>
+      <a href="./contact.html">Contact us</a>
+      <a href="./about.html">About us</a>
+      <a href="./booking.html" style="text-decoration: underline; text-underline-offset: 10px;">Book Now</a>
+    </div>
+    <h2 style="text-align:center">Please fill in the form below to book your haircut with us</h2>
+    <div id="bookingDiv">
+
+      <form action="reservation.php" method="post" style="height: 70vh;">
+          <div>
+          <img src="./images/logo1.png" alt="icon">
+           </div>
+          <input type="text" placeholder="Name (required)" required>
+          <input type="text" placeholder="Email (required)" required>
+            <select id="service_choice" name="service_choice" onChange="dropD()" required>
+                <option value="">Choose a service</option>
+                <option value="1">Full cut</option>
+                <option value="2">Back and sides</option>
+                <option value="3">Buzzcut</option>
+            </select>
+            
+          <textarea placeholder="Any requirements?" required></textarea>
+        <hr>
+        <button id="bookBtn" style="width: 15vw !important; margin-top: 3vh;">Book Now</button> <span id="total-price" style="margin-left: 13vw;">Total: </span>
+      </form>
+      <div id="demo-booking-multiple"></div>
+    </div>
+
+
+
+    <div id="navBar" style="margin-top: 20vh">
+      <img src="./images/logo1.png" id="brandLogo" />
+      <a href="#">By Samuel Hughes 2022 &copy</a>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
